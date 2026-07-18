@@ -22,7 +22,7 @@ module.exports = [
 
     {
         title: "Submission",
-        url: "/submission/"
+        url: "https://www.youtube.com/watch?v=Ifcv6plXdJ0&list=RDugKkxv9HTqU&index=10"
     },
 
     {

@@ -44,13 +44,29 @@
 
                     <li>
 
-                        <a
-                            href="{{ item.url | url }}"
-                            class="{% if page.url == item.url %}active{% endif %} {% if item.title == 'Assessment' %}btn-assessment{% endif %}">
+                        {% if item.url.startsWith("http") %}
 
-                            {{ item.title }}
+                            <a
+                                href="{{ item.url }}"
+                                target="_blank"
+                                rel="noopener"
+                                class="{% if page.url == item.url %}active{% endif %} {% if item.title == 'Assessment' %}btn-assessment{% endif %}">
 
-                        </a>
+                                {{ item.title }}
+
+                            </a>
+
+                        {% else %}
+
+                            <a
+                                href="{{ item.url | url }}"
+                                class="{% if page.url == item.url %}active{% endif %} {% if item.title == 'Assessment' %}btn-assessment{% endif %}">
+
+                                {{ item.title }}
+
+                            </a>
+
+                        {% endif %}
 
                     </li>
 
@@ -88,11 +104,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Mobile Menu
-    toggle.addEventListener("click", () => {
+    if (toggle && menu) {
 
-        menu.classList.toggle("show");
+        toggle.addEventListener("click", () => {
 
-    });
+            menu.classList.toggle("show");
+
+        });
+
+    }
 
 });
 

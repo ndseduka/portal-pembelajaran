@@ -64,27 +64,17 @@
 
                     <li>
 
-                        <a
-                            href="/portal-pembelajaran/"
-                            class=" ">
+                        
 
-                            Home
+                            <a
+                                href="/portal-pembelajaran/"
+                                class=" ">
 
-                        </a>
+                                Home
 
-                    </li>
+                            </a>
 
-                
-
-                    <li>
-
-                        <a
-                            href="/portal-pembelajaran/koding/"
-                            class=" ">
-
-                            Koding &amp; KA
-
-                        </a>
+                        
 
                     </li>
 
@@ -92,27 +82,17 @@
 
                     <li>
 
-                        <a
-                            href="/portal-pembelajaran/informatika/"
-                            class=" ">
+                        
 
-                            Informatika
+                            <a
+                                href="/portal-pembelajaran/koding/"
+                                class=" ">
 
-                        </a>
+                                Koding &amp; KA
 
-                    </li>
+                            </a>
 
-                
-
-                    <li>
-
-                        <a
-                            href="https://www.youtube.com/watch?v=iA8lLwmtKQM&amp;list=PLZS-MHyEIRo7cgStrKAMhgnOT66z2qKz1"
-                            class=" ">
-
-                            Download
-
-                        </a>
+                        
 
                     </li>
 
@@ -120,13 +100,17 @@
 
                     <li>
 
-                        <a
-                            href="/portal-pembelajaran/submission/"
-                            class=" ">
+                        
 
-                            Submission
+                            <a
+                                href="/portal-pembelajaran/informatika/"
+                                class=" ">
 
-                        </a>
+                                Informatika
+
+                            </a>
+
+                        
 
                     </li>
 
@@ -134,13 +118,55 @@
 
                     <li>
 
-                        <a
-                            href="/portal-pembelajaran/assessment/"
-                            class=" btn-assessment">
+                        
 
-                            Assessment
+                            <a
+                                href="https://www.youtube.com/watch?v=iA8lLwmtKQM&amp;list=PLZS-MHyEIRo7cgStrKAMhgnOT66z2qKz1"
+                                target="_blank"
+                                rel="noopener"
+                                class=" ">
 
-                        </a>
+                                Download
+
+                            </a>
+
+                        
+
+                    </li>
+
+                
+
+                    <li>
+
+                        
+
+                            <a
+                                href="/portal-pembelajaran/submission/"
+                                class=" ">
+
+                                Submission
+
+                            </a>
+
+                        
+
+                    </li>
+
+                
+
+                    <li>
+
+                        
+
+                            <a
+                                href="/portal-pembelajaran/assessment/"
+                                class=" btn-assessment">
+
+                                Assessment
+
+                            </a>
+
+                        
 
                     </li>
 
@@ -178,11 +204,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Mobile Menu
-    toggle.addEventListener("click", () => {
+    if (toggle && menu) {
 
-        menu.classList.toggle("show");
+        toggle.addEventListener("click", () => {
 
-    });
+            menu.classList.toggle("show");
+
+        });
+
+    }
 
 });
 

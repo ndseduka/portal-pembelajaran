@@ -2,24 +2,17 @@
   "name": "portal-pembelajaran",
   "version": "1.0.0",
   "description": "Portal Pembelajaran Digital SMA Negeri 1 Sandai",
-  "main": ".eleventy.js",
-  "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
-  },
-  "keywords": [
-    "eleventy",
-    "education",
-    "portal",
-    "informatika",
-    "koding"
-  ],
-  "author": "ndseduka",
-  "license": "ISC",
   "type": "commonjs",
+
+  "scripts": {
+    "start": "node ./node_modules/@11ty/eleventy/cmd.cjs --serve",
+    "build": "node ./node_modules/@11ty/eleventy/cmd.cjs"
+  },
+
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6"
   },
+
   "dependencies": {
     "markdown-it": "^14.3.0"
   }

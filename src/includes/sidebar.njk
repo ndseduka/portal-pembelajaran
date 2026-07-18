@@ -23,7 +23,7 @@
         {% for item in materi %}
 
             <a
-                href="{{ item.url }}"
+                href="{{ item.url | url }}"
                 class="{% if page.url == item.url %}active{% endif %}">
 
                 {{ item.data.title }}

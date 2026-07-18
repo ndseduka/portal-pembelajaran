@@ -32,22 +32,24 @@ module.exports = function (eleventyConfig) {
 
     });
 
-    return {
+return {
 
-        dir: {
+    pathPrefix: "/portal-pembelajaran/",
 
-            input: "src",
+    dir: {
 
-            includes: "includes",
+        input: "src",
 
-            layouts: "layouts",
+        includes: "includes",
 
-            data: "data",
+        layouts: "layouts",
 
-            output: "_site"
+        data: "data",
 
-        }
+        output: "_site"
 
-    };
+    }
+
+};
 
 };

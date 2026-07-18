@@ -1,0 +1,37 @@
+{% set materi = collections.koding %}
+{% set judul = "Koding & KA" %}
+{% set folder = "/koding/" %}
+
+{% if page.url.startsWith("/informatika/") %}
+    {% set materi = collections.informatika %}
+    {% set judul = "Informatika" %}
+    {% set folder = "/informatika/" %}
+{% endif %}
+
+<aside class="sidebar">
+
+    <div class="sidebar-header">
+
+        <h2>{{ judul }}</h2>
+
+        <p>Fase F</p>
+
+    </div>
+
+    <nav class="sidebar-menu">
+
+        {% for item in materi %}
+
+            <a
+                href="{{ item.url }}"
+                class="{% if page.url == item.url %}active{% endif %}">
+
+                {{ item.data.title }}
+
+            </a>
+
+        {% endfor %}
+
+    </nav>
+
+</aside>

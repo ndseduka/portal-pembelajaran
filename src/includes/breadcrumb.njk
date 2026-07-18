@@ -1,0 +1,25 @@
+{% set namaMapel = "Koding & KA" %}
+{% set urlMapel = "/koding/" %}
+
+{% if page.url.startsWith("/informatika/") %}
+    {% set namaMapel = "Informatika" %}
+    {% set urlMapel = "/informatika/" %}
+{% endif %}
+
+<nav class="breadcrumb">
+
+    <a href="/">Home</a>
+
+    <span>/</span>
+
+    <a href="{{ urlMapel }}">
+
+        {{ namaMapel }}
+
+    </a>
+
+    <span>/</span>
+
+    <strong>{{ title }}</strong>
+
+</nav>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/learning.css">
+
+</head>
+
+<body class="home-page">
+
+    <!-- Navbar -->
+    <header class="site-header">
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <!-- ==========================
+                 LOGO
+            =========================== -->
+
+<a href="/" class="logo">
+
+    <img
+        src="/assets/images/logo/logo-putih.png"
+        alt="Portal Belajar Digital"
+        class="logo-image">
+
+    <div class="logo-text">
+
+        <strong>Portal Belajar</strong>
+
+        <small>Informatika & Koding</small>
+
+    </div>
+
+</a>
+
+            <!-- ==========================
+                 MENU
+            =========================== -->
+
+            <button
+                class="nav-toggle"
+                id="navToggle"
+                aria-label="Toggle Navigation">
+
+                ☰
+
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+
+                
+
+                    <li>
+
+                        <a
+                            href="/"
+                            class="active ">
+
+                            Home
+
+                        </a>
+
+                    </li>
+
+                
+
+                    <li>
+
+                        <a
+                            href="/koding/"
+                            class=" ">
+
+                            Koding &amp; KA
+
+                        </a>
+
+                    </li>
+
+                
+
+                    <li>
+
+                        <a
+                            href="/informatika/"
+                            class=" ">
+
+                            Informatika
+
+                        </a>
+
+                    </li>
+
+                
+
+                    <li>
+
+                        <a
+                            href="https://www.youtube.com/watch?v=iA8lLwmtKQM&amp;list=PLZS-MHyEIRo7cgStrKAMhgnOT66z2qKz1"
+                            class=" ">
+
+                            Download
+
+                        </a>
+
+                    </li>
+
+                
+
+                    <li>
+
+                        <a
+                            href="/submission/"
+                            class=" ">
+
+                            Submission
+
+                        </a>
+
+                    </li>
+
+                
+
+                    <li>
+
+                        <a
+                            href="/assessment/"
+                            class=" btn-assessment">
+
+                            Assessment
+
+                        </a>
+
+                    </li>
+
+                
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const header = document.querySelector(".site-header");
+    const toggle = document.getElementById("navToggle");
+    const menu = document.getElementById("navMenu");
+
+    // Sticky Header
+
+    window.addEventListener("scroll", () => {
+
+        if (window.scrollY > 20) {
+
+            header.classList.add("scrolled");
+
+        } else {
+
+            header.classList.remove("scrolled");
+
+        }
+
+    });
+
+    // Mobile Menu
+
+    toggle.addEventListener("click", () => {
+
+        menu.classList.toggle("show");
+
+    });
+
+});
+
+</script>
+
+    <!-- Content -->
+    <main>
+
+        
+<!-- ==========================
+     HERO
+========================== -->
+
+<section class="hero">
+
+    <div class="hero-bg">
+        <img
+            src="/assets/images/hero/hero-home.webp"
+            alt="Portal Belajar Digital"
+            class="hero-image">
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+
+
+        <h1>
+            Portal Belajar <span>Digital</span>
+        </h1>
+
+        <p class="hero-subtitle">
+            Informatika &amp; Koding
+        </p>
+
+        <p class="hero-school">
+            SMA Negeri 1 Sandai
+        </p>
+
+        <div class="hero-divider"></div>
+
+        <p class="hero-year">
+            Tahun Ajaran 2026–2027
+        </p>
+
+        <p class="hero-label">
+            Guru Mata Pelajaran
+        </p>
+
+        <p class="hero-teacher">
+            Wiwin Ashari, S.Pd.
+        </p>
+
+        <p class="hero-description">
+            Belajar informatika dan koding menjadi lebih mudah,
+            menyenangkan, interaktif, dan relevan dengan dunia digital
+            masa kini.
+        </p>
+
+        <a href="/koding/" class="btn-primary">
+            🚀 Mulai Belajar
+        </a>
+
+    </div>
+
+    <div class="scroll-down">
+        <span></span>
+    </div>
+
+</section>
+
+<!-- ==========================
+     MATA PELAJARAN
+========================== -->
+
+<section class="subjects">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Mata Pelajaran
+        </h2>
+
+        <div class="subject-grid">
+
+            <!-- Koding & KA -->
+
+            <article class="subject-card">
+
+                <div class="subject-icon">
+                    📘
+                </div>
+
+                <h3>
+                    Koding &amp;<br>
+                    Kecerdasan Artifisial
+                </h3>
+
+                <p class="subject-level">
+                    Fase F
+                </p>
+
+                <a href="/koding/" class="card-button">
+                    Masuk
+                </a>
+
+            </article>
+
+            <!-- Informatika -->
+
+            <article class="subject-card">
+
+                <div class="subject-icon">
+                    💻
+                </div>
+
+                <h3>
+                    Informatika
+                </h3>
+
+                <p class="subject-level">
+                    Fase F
+                </p>
+
+                <a href="/informatika/" class="card-button">
+                    Masuk
+                </a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+    <p>
+        ©nds_project | PakWin2026
+    </p>
+
+</footer>
+
+    <!-- JavaScript -->
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>

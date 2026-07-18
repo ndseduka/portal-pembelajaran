@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ title or "Portal Pembelajaran Digital" }}</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/learning.css">
+
+</head>
+
+<body class="{% if page.url == '/' %}home-page{% else %}inner-page{% endif %}">
+
+    <!-- Navbar -->
+    {% include "navbar.njk" %}
+
+    <!-- Content -->
+    <main>
+
+        {{ content | safe }}
+
+    </main>
+
+    <!-- Footer -->
+    {% include "footer.njk" %}
+
+    <!-- JavaScript -->
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>

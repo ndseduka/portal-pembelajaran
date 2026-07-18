@@ -1,0 +1,23 @@
+---
+layout: base.njk
+---
+
+<div class="learning-layout">
+
+    {% include "sidebar.njk" %}
+
+    <main class="learning-main">
+
+        {% include "breadcrumb.njk" %}
+
+        <article class="learning-content">
+
+            {{ content | safe }}
+
+        </article>
+
+        {% include "pager.njk" %}
+
+    </main>
+
+</div>

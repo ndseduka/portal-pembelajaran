@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pendahuluan</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/learning.css">
+
+</head>
+
+<body class="inner-page">
+
+    <!-- Navbar -->
+    <header class="site-header">
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <!-- ==========================
+                 LOGO
+            =========================== -->
+
+<a href="/" class="logo">
+
+    <img
+        src="/assets/images/logo/logo-putih.png"
+        alt="Portal Belajar Digital"
+        class="logo-image">
+
+    <div class="logo-text">
+
+        <strong>Portal Belajar</strong>
+
+        <small>Informatika & Koding</small>
+
+    </div>
+
+</a>
+
+            <!-- ==========================
+                 MENU
+            =========================== -->
+
+            <button
+                class="nav-toggle"
+                id="navToggle"
+                aria-label="Toggle Navigation">
+
+                ☰
+
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+
+                
+
+                    <li>
+
+                        <a
+                            href="/"
+                            class=" ">
+
+                            Home
+
+                        </a>
+
+                    </li>
+
+                
+
+                    <li>
+
+                        <a
+                            href="/koding/"
+                            class=" ">
+
+                            Koding &amp; KA
+
+                        </a>
+
+                    </li>
+
+                
+
+                    <li>
+
+                        <a
+                            href="/informatika/"
+                            class=" ">
+
+                            Informatika
+
+                        </a>
+
+                    </li>
+
+                
+
+                    <li>
+
+                        <a
+                            href="https://www.youtube.com/watch?v=iA8lLwmtKQM&amp;list=PLZS-MHyEIRo7cgStrKAMhgnOT66z2qKz1"
+                            class=" ">
+
+                            Download
+
+                        </a>
+
+                    </li>
+
+                
+
+                    <li>
+
+                        <a
+                            href="/submission/"
+                            class=" ">
+
+                            Submission
+
+                        </a>
+
+                    </li>
+
+                
+
+                    <li>
+
+                        <a
+                            href="/assessment/"
+                            class=" btn-assessment">
+
+                            Assessment
+
+                        </a>
+
+                    </li>
+
+                
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const header = document.querySelector(".site-header");
+    const toggle = document.getElementById("navToggle");
+    const menu = document.getElementById("navMenu");
+
+    // Sticky Header
+
+    window.addEventListener("scroll", () => {
+
+        if (window.scrollY > 20) {
+
+            header.classList.add("scrolled");
+
+        } else {
+
+            header.classList.remove("scrolled");
+
+        }
+
+    });
+
+    // Mobile Menu
+
+    toggle.addEventListener("click", () => {
+
+        menu.classList.toggle("show");
+
+    });
+
+});
+
+</script>
+
+    <!-- Content -->
+    <main>
+
+        
+<div class="learning-layout">
+
+    
+
+
+
+
+
+<aside class="sidebar">
+
+    <div class="sidebar-header">
+
+        <h2>Koding &amp; KA</h2>
+
+        <p>Fase F</p>
+
+    </div>
+
+    <nav class="sidebar-menu">
+
+        
+
+            <a
+                href="/koding/pendahuluan/"
+                class="active">
+
+                Pendahuluan
+
+            </a>
+
+        
+
+            <a
+                href="/koding/materi-2/"
+                class="">
+
+                Materi 2
+
+            </a>
+
+        
+
+    </nav>
+
+</aside>
+
+    <main class="learning-main">
+
+        
+
+
+
+
+<nav class="breadcrumb">
+
+    <a href="/">Home</a>
+
+    <span>/</span>
+
+    <a href="/koding/">
+
+        Koding &amp; KA
+
+    </a>
+
+    <span>/</span>
+
+    <strong>Pendahuluan</strong>
+
+</nav>
+
+        <article class="learning-content">
+
+            <h1>Pendahuluan</h1>
+<p>Selamat datang di <strong>Portal Pembelajaran Digital</strong> mata pelajaran <strong>Koding &amp; Kecerdasan Artifisial</strong>.</p>
+<p>Portal ini disusun agar proses belajar lebih terstruktur, mudah diikuti, dan dapat diakses kapan saja.</p>
+<hr>
+<h2>Tujuan Pembelajaran</h2>
+<p>Setelah mempelajari mata pelajaran ini, peserta didik diharapkan mampu:</p>
+<ul>
+<li>Berpikir secara komputasional.</li>
+<li>Menyusun algoritma.</li>
+<li>Membuat flowchart.</li>
+<li>Menulis program sederhana.</li>
+<li>Memanfaatkan Artificial Intelligence secara bertanggung jawab.</li>
+</ul>
+<hr>
+<h2>Materi Pembelajaran</h2>
+<p>Materi akan dipelajari secara bertahap.</p>
+<ol>
+<li>Pendahuluan</li>
+<li>Computational Thinking</li>
+<li>Algoritma</li>
+<li>Flowchart</li>
+<li>Variabel</li>
+<li>Input Output</li>
+<li>Percabangan</li>
+<li>Perulangan</li>
+<li>Fungsi</li>
+<li>Artificial Intelligence</li>
+<li>Machine Learning</li>
+<li>Project</li>
+</ol>
+<hr>
+<h2>Contoh Program</h2>
+<pre><code class="language-python">print(&quot;Halo Dunia&quot;)
+</code></pre>
+<hr>
+<p>Selamat belajar dan semoga sukses.</p>
+
+
+        </article>
+
+        
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+    
+
+
+
+<div class="pager">
+
+    <div>
+
+        
+
+    </div>
+
+    <div>
+
+        
+
+            
+
+            <a href="/koding/materi-2/">
+
+                Materi 2 →
+
+            </a>
+
+        
+
+    </div>
+
+</div>
+
+    </main>
+
+</div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+    <p>
+        ©nds_project | PakWin2026
+    </p>
+
+</footer>
+
+    <!-- JavaScript -->
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>

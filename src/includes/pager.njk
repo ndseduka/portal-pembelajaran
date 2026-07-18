@@ -1,0 +1,51 @@
+{% set materi = collections.koding %}
+
+{% if page.url.startsWith("/informatika/") %}
+    {% set materi = collections.informatika %}
+{% endif %}
+
+{% set current = -1 %}
+
+{% for item in materi %}
+
+    {% if item.url == page.url %}
+        {% set current = loop.index0 %}
+    {% endif %}
+
+{% endfor %}
+
+<div class="pager">
+
+    <div>
+
+        {% if current > 0 %}
+
+            {% set prev = materi[current - 1] %}
+
+            <a href="{{ prev.url }}">
+
+                ← {{ prev.data.title }}
+
+            </a>
+
+        {% endif %}
+
+    </div>
+
+    <div>
+
+        {% if current < (materi | length) - 1 %}
+
+            {% set next = materi[current + 1] %}
+
+            <a href="{{ next.url }}">
+
+                {{ next.data.title }} →
+
+            </a>
+
+        {% endif %}
+
+    </div>
+
+</div>

@@ -1,8 +1,8 @@
 ---
-title: Pendahuluan
+title: 02. Materi 2
 layout: learning.njk
 order: 1
-permalink: "/informatika/pendahuluan/"
+permalink: "/informatika/materi-2/"
 ---
 
 # Pendahuluan

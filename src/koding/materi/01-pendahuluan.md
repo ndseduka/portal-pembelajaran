@@ -5,7 +5,7 @@ order: 1
 permalink: "/koding/pendahuluan/"
 ---
 
-# Pendahuluan
+# PENGENALAN PEMROGRAMAN
 
 Selamat datang di **Portal Pembelajaran Digital** mata pelajaran **Koding & Kecerdasan Artifisial**.
 
@@ -17,37 +17,27 @@ Portal ini disusun agar proses belajar lebih terstruktur, mudah diikuti, dan dap
 
 Setelah mempelajari mata pelajaran ini, peserta didik diharapkan mampu:
 
-- Berpikir secara komputasional.
-- Menyusun algoritma.
-- Membuat flowchart.
-- Menulis program sederhana.
-- Memanfaatkan Artificial Intelligence secara bertanggung jawab.
+- Menjelaskan pengertian pemrograman dan coding.
+- Membedakan pemrograman dengan coding.
+- Menjelaskan manfaat mempelajari pemrograman.
+- Memahami cara manusia berkomunikasi dengan komputer.
+- Menjelaskan perbedaan compiler dan interpreter.
 
 ---
 
-## Materi Pembelajaran
+## A. Pengertian Pemrograman
 
-Materi akan dipelajari secara bertahap.
+Pemrograman (Programming) adalah proses membuat program komputer, mulai dari menganalisis masalah, merancang solusi, menulis kode, menguji, hingga memperbaiki kesalahan (debugging).
 
-1. Pendahuluan
-2. Computational Thinking
-3. Algoritma
-4. Flowchart
-5. Variabel
-6. Input Output
-7. Percabangan
-8. Perulangan
-9. Fungsi
-10. Artificial Intelligence
-11. Machine Learning
-12. Project
+Jadi, pemrograman bukan hanya menulis kode, tetapi seluruh proses pembuatan perangkat lunak.
 
 ---
 
-## Contoh Program
+## B. Pengertian Coding
 
-```python
-print("Halo Dunia")
+Coding adalah kegiatan menulis instruksi menggunakan bahasa pemrograman sesuai aturan penulisannya (sintaks).
+
+Kode tersebut kemudian diterjemahkan ke bahasa mesin agar dapat dijalankan komputer.
 ```
 
 ---

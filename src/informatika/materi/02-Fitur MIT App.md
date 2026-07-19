@@ -1,8 +1,8 @@
 ---
-title: 02. Materi 2
+title: Fitur MIT APP
 layout: learning.njk
 order: 1
-permalink: "/informatika/materi-2/"
+permalink: "/informatika/fitur-mit-app/"
 ---
 
 # Pendahuluan

@@ -1,8 +1,8 @@
 ---
-title: Pyhton 2
+title: Pengertian Python
 layout: learning.njk
 order: 1
-permalink: "/koding/python-2/"
+permalink: "/koding/pengertian-python/"
 ---
 
 # Pendahuluan

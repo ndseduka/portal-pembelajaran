@@ -44,7 +44,7 @@ Kode tersebut kemudian diterjemahkan ke bahasa mesin agar dapat dijalankan kompu
 
 ## C. Perbedaan Pemrograman dan Coding
 <img
-src="/assets/images/koding/koding1.png"
+src="https://drive.google.com/uc?export=view&id=1ejkZe9OJ3REdx9AmdwwI5OCGU4X8XOMi"
 alt="Koding 1"
 width="700">
 ---

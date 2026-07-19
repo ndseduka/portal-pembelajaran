@@ -43,8 +43,10 @@ Kode tersebut kemudian diterjemahkan ke bahasa mesin agar dapat dijalankan kompu
 ---
 
 ## C. Perbedaan Pemrograman dan Coding
-![Koding 1](/assets/images/koding/koding1.png)
-
+<img
+src="/assets/images/koding/koding1.png"
+alt="Koding 1"
+width="700">
 ---
 ## D. Mengapa Belajar Pemrograman?
 
@@ -111,7 +113,10 @@ Contoh: Python, JavaScript, PHP, Ruby, Perl.
 
 ---
 ## H. Perbedaan Compiler dan Interpreter
-![Koding 2](/assets/images/koding/koding2.png)
+<img
+src="/assets/images/koding/koding2.png"
+alt="Koding 2"
+width="700">
 
 ---
 

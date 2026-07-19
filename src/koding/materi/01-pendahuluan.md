@@ -38,8 +38,80 @@ Jadi, pemrograman bukan hanya menulis kode, tetapi seluruh proses pembuatan pera
 Coding adalah kegiatan menulis instruksi menggunakan bahasa pemrograman sesuai aturan penulisannya (sintaks).
 
 Kode tersebut kemudian diterjemahkan ke bahasa mesin agar dapat dijalankan komputer.
-```
+
 
 ---
 
-Selamat belajar dan semoga sukses.
+## C. Perbedaan Pemrograman dan Coding
+![Koding 1](/assets/images/koding/koding1.png)
+
+---
+## D. Mengapa Belajar Pemrograman?
+
+Belajar pemrograman bermanfaat untuk:
+
+- Melatih berpikir logis dan sistematis.
+- Meningkatkan kemampuan memecahkan masalah (problem solving).
+- Mengembangkan kreativitas dalam mencari solusi.
+- Melatih berpikir kritis saat memperbaiki kesalahan (debugging).
+- Meningkatkan kemampuan bekerja sama dalam tim.
+
+---
+## E. Cara Manusia Berkomunikasi dengan Komputer
+
+Komputer hanya memahami bahasa mesin (0 dan 1). Oleh karena itu, diperlukan bahasa pemrograman sebagai perantara antara manusia dan komputer.
+
+Alur prosesnya:
+
+Programmer
+      ↓
+Bahasa Pemrograman
+      ↓
+Compiler / Interpreter
+      ↓
+Bahasa Mesin (0 dan 1)
+      ↓
+Program Dijalankan
+
+---
+## F. Compiler
+
+Compiler menerjemahkan seluruh kode program menjadi bahasa mesin sebelum program dijalankan.
+
+Cara Kerja
+Menulis seluruh kode program.
+Compiler memeriksa semua kode.
+Jika tidak ada kesalahan, dibuat file executable.
+Program siap dijalankan.
+Kelebihan
+Program lebih cepat.
+Menghasilkan file executable.
+Cocok untuk aplikasi besar.
+Kekurangan
+Jika ada satu kesalahan, proses kompilasi harus diulang.
+
+Contoh: C, C++, Pascal, C#, Go, Kotlin.
+
+---
+## Interpreter
+
+Interpreter menerjemahkan dan menjalankan program baris demi baris.
+
+Jika ditemukan kesalahan, proses langsung berhenti pada baris tersebut sehingga lebih mudah diperbaiki.
+
+Kelebihan
+Mudah melakukan debugging.
+Cocok untuk belajar pemrograman.
+Pengembangan lebih cepat.
+Kekurangan
+Program berjalan lebih lambat.
+Tidak menghasilkan file executable.
+
+Contoh: Python, JavaScript, PHP, Ruby, Perl.
+
+---
+## H. Perbedaan Compiler dan Interpreter
+![Koding 2](/assets/images/koding/koding2.png)
+
+---
+

@@ -5,11 +5,8 @@ order: 1
 permalink: "/koding/pendahuluan/"
 ---
 
-# PENGENALAN PEMROGRAMAN
-
-Selamat datang di **Portal Pembelajaran Digital** mata pelajaran **Koding & Kecerdasan Artifisial**.
-
-Portal ini disusun agar proses belajar lebih terstruktur, mudah diikuti, dan dapat diakses kapan saja.
+# Pengantar Algoritma
+Materi Pengantar Algoritma memberikan pemahaman tentang konsep dasar algoritma, cara menyusun langkah-langkah penyelesaian masalah secara logis dan sistematis, serta penerapannya sebagai dasar dalam pemrograman komputer
 
 ---
 
@@ -24,8 +21,6 @@ Setelah mempelajari mata pelajaran ini, peserta didik diharapkan mampu:
 - Menjelaskan perbedaan compiler dan interpreter.
 
 ---
-
-## Pengantar Algoritma
 <h2> Presentasi Materi</h2>
 <iframe
 src="https://docs.google.com/presentation/d/e/2PACX-1vTUJiY3WzP40ftt2GjbozXhxF5KS0fR6p8W5ge5pbecvPgLZxKNB0IXRkXgjp1iRQ/embed?start=false&loop=false&delayms=60000"

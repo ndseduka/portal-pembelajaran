@@ -3,39 +3,50 @@ permalink: "/koding/"
 eleventyExcludeFromCollections: true
 ---
 
+{% set first = collections.koding | first %}
+
 <!DOCTYPE html>
 <html lang="id">
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta http-equiv="refresh"
-      content="0; url={{ '/koding/pendahuluan/' | url }}">
+    {% if first %}
+    <meta http-equiv="refresh"
+          content="0; url={{ first.url | url }}">
+    {% endif %}
 
-<title>Redirect...</title>
+    <title>Mengalihkan...</title>
 
-<script>
-
-window.location.replace("{{ '/koding/pendahuluan/' | url }}");
-
-</script>
+    {% if first %}
+    <script>
+        window.location.replace("{{ first.url | url }}");
+    </script>
+    {% endif %}
 
 </head>
 
 <body>
 
-<p>
+{% if first %}
 
-Mengalihkan ke materi Pendahuluan...
+    <p>
+        Mengalihkan ke materi
+        <strong>{{ first.data.title }}</strong>...
 
-<a href="{{ '/koding/pendahuluan/' | url }}">
+        <br><br>
 
-Klik di sini jika tidak otomatis.
+        <a href="{{ first.url | url }}">
+            Klik di sini jika tidak otomatis.
+        </a>
+    </p>
 
-</a>
+{% else %}
 
-</p>
+    <p>Belum ada materi.</p>
+
+{% endif %}
 
 </body>
 

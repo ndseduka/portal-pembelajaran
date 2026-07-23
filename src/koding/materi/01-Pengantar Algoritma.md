@@ -1,8 +1,8 @@
 ---
-title: Pendahuluan
+title: Pengantar Algoritma
 layout: learning.njk
 order: 1
-permalink: "/koding/pendahuluan/"
+permalink: "/koding/pengantar-algoritma/"
 ---
 
 # Pengantar Algoritma

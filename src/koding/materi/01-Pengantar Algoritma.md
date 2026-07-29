@@ -1,5 +1,5 @@
 ---
-title: Pengantar Algoritma
+title: 01. Pengantar Algoritma
 layout: learning.njk
 order: 1
 permalink: "/koding/pengantar-algoritma/"

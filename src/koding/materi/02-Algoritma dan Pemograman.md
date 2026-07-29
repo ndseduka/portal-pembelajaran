@@ -1,5 +1,5 @@
 ---
-title: Algoritma dan Pemograman
+title: 02. Algoritma dan Pemograman
 layout: learning.njk
 order: 1
 permalink: "/koding/algoritma-dan-pemograman/"

@@ -34,12 +34,12 @@ Python dapat menentukan tipe data berdasarkan nilai yang diberikan kepada sebuah
 
 ## Tujuan Pembelajaran
 Setelah mempelajari materi ini, peserta didik diharapkan mampu:
-Memahami pengertian tipe data pada bahasa pemrograman Python.
-Menjelaskan fungsi tipe data dalam sebuah program.
-Mengenal tipe data `int`, `float`, `str`, dan `bool`.
-Membuat variabel menggunakan tipe data yang sesuai.
-Membedakan bilangan bulat, bilangan desimal, teks, dan nilai boolean.
-Mengetahui tipe data menggunakan fungsi `type()`.
+1. Memahami pengertian tipe data pada bahasa pemrograman Python.
+2. Menjelaskan fungsi tipe data dalam sebuah program.
+3. Mengenal tipe data `int`, `float`, `str`, dan `bool`.
+4. Membuat variabel menggunakan tipe data yang sesuai.
+5. Membedakan bilangan bulat, bilangan desimal, teks, dan nilai boolean.
+6. Mengetahui tipe data menggunakan fungsi `type()`.
 
 ---
 

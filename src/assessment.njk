@@ -1,0 +1,101 @@
+---
+layout: base.njk
+title: Assessment
+---
+
+<section class="assessment-page">
+
+    <div class="container">
+
+        <div class="assessment-hero">
+
+            <div class="assessment-hero-icon">✓</div>
+
+            <div>
+                <span class="assessment-eyebrow">EVALUASI PEMBELAJARAN</span>
+                <h1>Assessment</h1>
+                <p>
+                    Akses tugas, latihan, dan assessment pembelajaran secara cepat melalui
+                    tautan yang telah disediakan untuk setiap mata pelajaran.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="assessment-subjects">
+
+            {% for subject in assessments %}
+
+                <section class="assessment-subject assessment-{{ subject.key }}">
+
+                    <div class="assessment-subject-heading">
+
+                        <div class="assessment-subject-icon">
+                            {{ subject.icon }}
+                        </div>
+
+                        <div>
+                            <span class="assessment-label">MATA PELAJARAN</span>
+                            <h2>{{ subject.subject }}</h2>
+                            <p>{{ subject.description }}</p>
+                        </div>
+
+                    </div>
+
+                    <div class="assessment-grid">
+
+                        {% for task in subject.tasks %}
+
+                            <article class="assessment-card">
+
+                                <div class="assessment-card-top">
+                                    <span class="assessment-type">{{ task.type }}</span>
+                                    <span class="assessment-arrow">↗</span>
+                                </div>
+
+                                <h3>{{ task.title }}</h3>
+
+                                <p>{{ task.description }}</p>
+
+                                {% if task.url %}
+                                    <a
+                                        href="{{ task.url }}"
+                                        class="assessment-action"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        <span>Buka Tugas</span>
+                                        <span aria-hidden="true">→</span>
+                                    </a>
+                                {% else %}
+                                    <span class="assessment-action assessment-action-disabled">
+                                        <span>Link Belum Diatur</span>
+                                        <span aria-hidden="true">○</span>
+                                    </span>
+                                {% endif %}
+
+                            </article>
+
+                        {% endfor %}
+
+                    </div>
+
+                </section>
+
+            {% endfor %}
+
+        </div>
+
+        <div class="assessment-note">
+            <div class="assessment-note-icon">i</div>
+            <div>
+                <strong>Petunjuk</strong>
+                <p>
+                    Pilih tugas sesuai mata pelajaran. Tautan tugas akan terbuka pada tab baru
+                    sehingga halaman portal pembelajaran tetap terbuka.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
